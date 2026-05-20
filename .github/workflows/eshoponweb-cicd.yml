@@ -24,6 +24,7 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '9.0.x'
+        cache: 'true'
    
     #Build/Test/Publish the .net project
     - name: Build with dotnet
